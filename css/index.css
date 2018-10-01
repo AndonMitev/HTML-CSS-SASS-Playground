@@ -7,6 +7,9 @@ body {
 nav {
   background-color: black;
   text-align: center;
+  position: fixed;
+  width: 100%;
+  opacity: 1;
 }
 
 nav ul {
@@ -18,6 +21,7 @@ nav ul {
       -ms-flex-pack: center;
           justify-content: center;
   list-style-type: none;
+  width: 100%;
 }
 
 nav ul li {
@@ -71,6 +75,10 @@ nav ul li a:hover {
   height: 680px;
 }
 
+#projects #main-part {
+  height: 100%;
+}
+
 #projects header h2 {
   margin: 0;
   text-align: center;
@@ -78,5 +86,144 @@ nav ul li a:hover {
   position: relative;
   top: 50px;
   font-size: 2em;
+}
+
+#projects ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 70%;
+}
+
+#projects ul li {
+  margin: auto;
+  height: 50%;
+}
+
+#projects ul article {
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+}
+
+#projects ul article header {
+  color: white;
+  font-size: 2em;
+  margin: 5% 0;
+  cursor: default;
+}
+
+#projects ul article main img {
+  width: 100%;
+}
+
+#projects ul article footer {
+  color: white;
+  text-align: justify;
+}
+
+#projects p {
+  text-align: center;
+  color: white;
+  margin-top: 5%;
+  font-size: 1.2em;
+}
+
+#technologies {
+  background: #373b44;
+  background: -webkit-gradient(linear, left bottom, left top, from(#4286f4), to(#373b44));
+  background: linear-gradient(to top, #4286f4, #373b44);
+  height: 680px;
+}
+
+#technologies h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 2em;
+  position: relative;
+  top: 50px;
+  color: white;
+}
+
+#technologies ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  list-style: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5% 0;
+  padding: 0;
+  height: 90%;
+}
+
+#technologies ul li {
+  width: 30%;
+  height: 30%;
+  text-align: center;
+}
+
+#technologies ul img {
+  width: 30%;
+  height: 65%;
+}
+
+#contact {
+  background: #0f0c29;
+  background: -webkit-gradient(linear, left bottom, left top, from(#24243e), color-stop(#302b63), to(#0f0c29));
+  background: linear-gradient(to top, #24243e, #302b63, #0f0c29);
+  height: 340px;
+}
+
+#contact h2 {
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  position: relative;
+  top: 50px;
+}
+
+#contact ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 80%;
+  list-style-type: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#contact ul li {
+  line-height: 40px;
+  font-size: 1.3em;
+}
+
+#contact ul li a {
+  text-decoration: none;
+  color: white;
 }
 /*# sourceMappingURL=index.css.map */
